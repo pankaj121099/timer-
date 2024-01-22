@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    background-color: hsl(0, 1%, 22%); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;   
+ }
+ .sty{
+     height:240px;
+     width: 240px;   
+      background-color: rgb(123, 174, 123);
+      border: 2px solid #e6e0e0;
+    box-shadow: inset;
+     margin-top: 180px;
+     margin-left:43% ;
+     transform: 50%;
+     text-align: center;
+     border-radius: 12px;
+  }
+   h2{
+       border-bottom: 5px solid rgb(230, 91, 17);
+       color: rgb(8, 7, 7);
+       text-transform: uppercase;
+       border-radius: 23px;
+       border-top: 5px solid  rgb(114, 11, 11);
+       background-color: rgb(182, 214, 214);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+          }
+          h2:hover{
+            color: rgb(5, 55, 99);
+            border-bottom: 5px solid rgb(29, 31, 30);
+         
+            border-top: 5px solid  rgb(36, 36, 36);
+          }
+          span{
+            color: #cc6919;
+          }
+  button{
+    background-color: rgb(50, 60, 44);
+    color: hsl(0, 100%, 99%);
+      background-color: transparent;
+     font-size: 26px;
+ border: none;
+ color: black;
+
+    
 }
+#m:hover{
+   background-color: #6c3030;
+   border-radius: 100px;
+}
+input[type="number"] {
+    padding: 2%;
+    font-size: 1rem;
+    border-radius: 7px;
+  
+    background-color:rgb(218, 211, 211);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    width: 220px;   
+
+ }
+
+ #size{
+     font-size:20px;
+     color: black;
+ }
